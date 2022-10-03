@@ -1,0 +1,24 @@
+{
+  "name": "restify-pof",
+  "version": "1.0.0",
+  "description": "Repositorio creado para guardar el codigo relacionado al POF de la materia TTADS - 2022 - UTN FRRO.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soundOfff/Restify-POF.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soundOfff/Restify-POF/issues"
+  },
+  "homepage": "https://github.com/soundOfff/Restify-POF#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20",
+    "restify": "^8.6.1"
+  }
+}
