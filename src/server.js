@@ -9,6 +9,10 @@ server.get('/', function(req, res, next) {
   return next(err);
 });
 
+server.post('/badGateway', function (req, res, next) {
+  var err = new errors.BadGatewayError("Bad gw");
+  return next(err);
+})
 
 // Cuando el servidor esta funcionando (on) y se produce una excepcion "InternalServer"
 // Entonces se triggerea una funcion que devuelve el error en ente caso formateado. 
